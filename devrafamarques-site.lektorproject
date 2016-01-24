@@ -1,2 +1,5 @@
 [project]
 name = devrafamarques-site
+
+[servers.ghpages]
+target = ghpages+https://rafamqrs/devrafamarques.github.io
