@@ -1,6 +1,21 @@
-title: Welcome to devrafamarques-site!
+title: Criando um projeto no github pages com LEKTOR!
 ---
 body:
+Primeiro vamos entender o que é o LEKTOR e para que ele serve.
+Lektor é CMS(Content Management Systems), ou seja, Sistema Gerenciador de Conteúdo. Existem alguns gerenciadores de contéudo,
+os mais famosos são o WordPress e o Drupal, então porque usar o Lektor? Lektor é diferente de qualquer um destes.
+No entanto, Lektor também leva a partir de sistemas de gerenciamento de conteúdo como o WordPress e fornece uma interface de administração flexível e baseada em navegador a partir da qual você pode editar o conteúdo do seu site. Ao contrário das soluções tradicionais CMS , no entanto, ele é executado inteiramente no seu próprio computador.
+Qual a vantagem disso? Simples, voçê pode dar um site Lektor para um usuário final e ele ainda assim conseguirá editar o conteúdo de forma simples, através da parte de admin.
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.
+
+Instalação:
+Mac e Linux você pode instalar utilizando:
+<b>curl -sf https://www.getlektor.com/install.sh | sh</b>
+Windows:
+Utilizando o powershell:
+<b>@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://getlektor.com/install.ps1'))" && SET PATH=%PATH%;%LocalAppData%\lektor-cli</b>
+ou então:
+iex ((new-object net.webclient).DownloadString('https://getlektor.com/install.ps1'))
+
+Você também pode utilizar uma aplicação desktop:
+https://github.com/lektor/lektor/releases/tag/1.1
